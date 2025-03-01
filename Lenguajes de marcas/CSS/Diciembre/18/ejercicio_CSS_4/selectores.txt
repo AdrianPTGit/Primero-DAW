@@ -1,0 +1,6 @@
+CSS ::first-letter Selector
+https://www.w3schools.com/cssref/sel_firstletter.php
+CSS Pseudo-classes
+https://www.w3schools.com/css/css_pseudo_classes.asp
+CSS Attribute Selectors
+https://www.w3schools.com/css/css_attribute_selectors.asp

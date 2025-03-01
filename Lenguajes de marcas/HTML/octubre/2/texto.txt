@@ -1,0 +1,7 @@
+
+            The target attribute can have one of the following values:<br>
+
+            <b>_self:</b> - Default. Opens the document in the same window/tab as it was clicked.<br>
+            <b>_blank: -</b> Opens the document in a new window or tab.<br>
+            <b>_parent: -</b> Opens the document in the parent frame.<br>
+            <b>_top: -</b> Opens the document in the full body of the window.</p>

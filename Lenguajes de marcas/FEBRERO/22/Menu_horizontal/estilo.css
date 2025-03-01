@@ -1,0 +1,45 @@
+body{
+
+    background-color: #b8ceb0;
+}
+li{
+
+    float: left;
+}
+
+ul{
+
+    list-style-type: none;
+    padding: 0;
+    
+    
+}
+
+li a {
+    float: left;
+    /*display: block;*/
+    padding: 8px;
+    background-color: #348140;
+    border-right: 2px solid #000000;
+    text-decoration: none;
+    border-radius: 5px;
+   
+  }
+a:hover{
+
+    background-color: #93CD2A;
+}
+  p{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .div { 
+    float:left;
+    border-bottom: solid #348140; 
+    height: 95px;
+    width: 100%;
+  
+  }
+  /*    ADRIÁN POMARETA TARRAGÓ  */

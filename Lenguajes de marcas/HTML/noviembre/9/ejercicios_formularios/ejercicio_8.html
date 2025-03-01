@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>Example Title</title>
+	<meta name="author" content="Your Name">
+	<meta name="description" content="Example description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilo_tabla.css">
+	<link rel="icon" type="image/x-icon" href=""/>
+</head>
+
+<body>
+	<div>
+    
+        
+    <table class="default">
+  <tr>
+    <td>nombre:</td>
+    <td> <label for="nombre"></label>
+      <input type="text" id="nombre" name="nombre_usuario" /><label for="nombre"> F.Nac:</label>
+      <input type="text" id="F_Nac" name="F_Nac" /><label for="nombre">DNI:</label>
+      <input type="text" id="DNI" name="DNI" /></td>
+  </tr>
+  <tr>
+    <td>Apellidos:</td>
+    <td><label for="apellidos"></label>
+      <input type="text" id="apellidos"   name="apellidos" /></td>
+  </tr>
+  <tr>
+    <td>Calle y número:</td>
+    <td><label for="calle_num"></label>
+      <input type="text" id="calle_num" name="calle_num" /></td>
+  </tr>
+        <tr>
+    <td>Código postal:</td>
+    <td><label for="cod_post"></label>
+      <input type="text" id="cod_post" name="cod_post" /> Ciudad:<label for="ciudad"></label>
+      <input type="text" id="ciudad" name="ciudad" /></td>
+  </tr>
+        <tr>
+    <td>Provincia:</td>
+    <td><label for="provincia"></label>
+      <input type="text" id="provincia" name="provincia" /> Telefono:<label for="Telefono"></label>
+      <input type="text" id="Telefono" name="Telefono" /></td>
+  </tr>
+         <tr>
+    <td>Opción:</td>
+    <td><label for="menu_opcion">Escoja una opción:</label>
+<select name="menu_opcion" id="menu_opcion">
+    <option value="opcion1">opcion1</option>
+  <option value="opcion2">opcion2</option>
+  <option value="opcion3">opcion3</option>
+  <option value="opcion4">opcion4</option>
+</select></td>
+  </tr>
+            <tr>
+    <td>Comentarios personales:</td>
+    <td><textarea name="comentarios" rows="2" cols="85">Escribe aquí tus comentarios</textarea></td>
+  </tr>
+             <tr>
+    <th>Pulse aquí:</th>
+    <td><button class="my-button" type="submit">Enviar datos</button>
+             <button  class="my-button" type="submit">Borrar los datos introducidos</button></td>
+  </tr>
+</table>
+    </div>
+</body>
+
+</html>

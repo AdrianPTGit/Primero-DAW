@@ -1,0 +1,29 @@
+/*Adrián Pomareta  Tarragó*/
+.titulo{
+      
+    border: rgb(161, 155, 155) 5px solid;
+    height: 50px;
+   
+
+}
+
+.lista{
+
+    border-top: red 5px dashed;
+    border-bottom: red 5px dashed;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.parrafo{
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.lista_2{
+
+    border: rgb(0, 255, 47) 5px dashed;
+}

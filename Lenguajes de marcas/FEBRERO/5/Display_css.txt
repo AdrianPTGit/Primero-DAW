@@ -1,0 +1,15 @@
+CSS display
+https://www.w3schools.com/cssref/playdemo.php?filename=playcss_display
+https://www.w3schools.com/cssref/pr_class_display.php
+
+CSS visibility
+https://www.w3schools.com/cssref/playdemo.php?filename=playcss_visibility
+
+ejercicio 29 
+display visibility
+1. box1
+2. box2
+3. box3
+4. box4
+5. box5
+6. box6

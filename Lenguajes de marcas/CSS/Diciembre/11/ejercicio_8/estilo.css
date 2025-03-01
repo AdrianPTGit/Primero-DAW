@@ -1,0 +1,71 @@
+table{
+  border: 2px solid;
+}
+td{
+  border: 1px solid;
+  width: 300px;
+  height: 150px;
+
+}
+.color{
+  color: black;
+}
+.teal{
+
+  color: teal;
+  border-color: black;
+  font-size: 1.5em;
+  padding-left: 25px;
+}
+
+.a31142{
+  color: #a31142;
+  background-color: #b7a689;
+  border-color: black;
+  font-size: 1.5em;
+  padding-left: 25px;
+}
+.d36e4a{
+  background-color: #d36e4a;
+  color: black;
+  border-color: black;
+  font-size: 1.5em;
+  padding-left: 25px;
+}
+.a2d8a9{
+  background-color: #a2d8a9;
+  color: #0489B1;
+  border-color: black;
+  font-size: 1.5em;
+  padding-left: 25px;
+}
+
+.purple{
+  background-color: #a2d8a9;
+  color: purple;
+  border-color: black;
+  font-size: 1.5em;
+  padding-left: 25px;
+}
+.FFFF00{
+
+  background-color: #d36e4a;
+  color: #ffff00;
+  border-color: black;
+  font-size: 1.5em;
+  padding-left: 25px;
+}
+.amarillo{
+  background-color: #FFFF00;
+  color:#00FF00;
+  border-color: black;
+  font-size: 1.5em;
+  padding-left: 25px;
+}
+.green{
+  color:green;
+  background-color: #bfaf8f;
+  border-color: black;
+  font-size: 1.5em;
+  padding-left: 25px;
+}

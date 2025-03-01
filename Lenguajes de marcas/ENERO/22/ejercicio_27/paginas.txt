@@ -1,0 +1,16 @@
+       <!--elementos en linea: se pueden colocar varios de ellos en una linea
+              bloque solo uno por linea
+            
+            El estándar de CSS define cinco modelos diferentes para
+posicionar una caja:
+ https://www.w3schools.com/css/css_positioning.asp
+ https://developer.mozilla.org/es/docs/Web/CSS/position
+ Posicionamiento:  estático   relativo  absoluto   fijo
+ propiedad position:
+absolute-- https://www.w3schools.com/css/tryit.asp?filename=trycss_position_absolute
+fixed -- https://www.w3schools.com/css/tryit.asp?filename=trycss_position_fixed
+static -- top, right, bottom, left https://www.w3schools.com/css/tryit.asp?filename=trycss_position_static
+relative -- top, right, bottom, left https://www.w3schools.com/css/tryit.asp?filename=trycss_position_relative
+sticky -- https://www.w3schools.com/css/tryit.asp?filename=trycss_position_sticky
+            
+-->

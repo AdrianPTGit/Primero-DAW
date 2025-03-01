@@ -1,0 +1,121 @@
+/*body{
+
+    background-color: #b8ceb0;
+}
+li{
+
+    float: left;
+}
+
+ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li a {
+    float: left;
+    
+    padding: 10px;
+    background-color: #348140;
+    border-right: 2px solid #000000;
+    text-decoration: none;
+    
+    width: 170px;
+   
+  }
+a:hover{
+
+    background-color: #93CD2A;
+}
+  p{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+    /* ADRIÁN POMARETA TARRAGÓ  */
+
+    /* menu */
+
+#menu ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+ }
+ 
+ /* items del menu */
+ 
+ #menu ul li {
+  background-color:#000000;
+ }
+ 
+ /* enlaces del menu */
+ 
+ #menu ul a {
+  display:block;
+  color:#fff;
+  text-decoration:none;
+  font-weight:400;
+  font-size:15px;
+  padding:10px;
+  font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  letter-spacing:1px;
+ }
+ 
+ /* items del menu */
+ 
+ #menu ul li {
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+ }
+ 
+ /* efecto al pasar el ratón por los items del menu */
+ 
+ #menu ul li:hover {
+  background:#abb6c6;
+ }
+/*=================================================================================*/
+ /* menu desplegable */
+/*=================================================================================*/
+
+#menu ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  background:#eee;
+  padding:0;
+ }
+ 
+ /* items del menu desplegable */
+ 
+ #menu ul ul li {
+  float:none;
+  width:250px
+ }
+ 
+ /* enlaces de los items del menu desplegable */
+ 
+ #menu ul ul a {
+  line-height:120%;
+  padding:25px 15px;
+  
+ }
+ 
+ /* items del menu desplegable al pasar el ratón */
+ 
+ #menu ul li:hover > ul {
+  display:block;
+ }
+ p{
+
+  padding-left: 10px;
+ 
+ }

@@ -1,0 +1,11 @@
+https://www.w3schools.com/cssref/playdemo.php?filename=playcss_float
+https://www.w3schools.com/cssref/pr_class_float.php
+ver pag 230
+
+float: left; si cajas no acben ajustar tamaño
+
+elementos en linea float: left|right|none (imagenn con texto al su alrededor)
+
+todos los contenedores con proiedad float.
+
+float: initial|inherit|left|right|none

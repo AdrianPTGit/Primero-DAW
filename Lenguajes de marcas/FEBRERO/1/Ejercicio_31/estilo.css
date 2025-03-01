@@ -1,0 +1,55 @@
+/*Adrián Pomareta Tarragó*/
+
+.titulo{
+
+    float: left;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    margin-top: 20px;
+   /*background-color: blue;*/
+}
+
+.menu{
+    float: left;
+    width: 10%;
+    height: 100%;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*background-color: blueviolet;*/
+}
+
+.contenido{
+    float: left;
+    width: 80%;
+    height: 60%;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+   /* background-color: chartreuse;*/
+}
+
+.contenido_2{
+    float: left;
+    width: 80%;
+    height: 20%;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    /*background-color: red;*/
+}
+
+.contenido_3{
+    float: left;
+    width: 25%;
+    height: 30%;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+   /* background-color: yellow;*/
+
+}

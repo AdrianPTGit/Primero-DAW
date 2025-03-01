@@ -1,0 +1,83 @@
+.parrafo{
+    
+    color:#8A4B08;
+}
+.texto1{
+
+}
+.texto2{
+    
+    color:deeppink;
+}
+.texto3{
+    
+    color:green;
+    font-style: italic;
+    text-decoration: underline;
+}
+.texto4{
+    
+    font-style: italic;
+    color: blue;
+        text-decoration: underline red;
+
+}
+
+.rojo{
+
+    color: red;
+}
+
+.rojo2{
+       text-decoration: underline;
+        color: red;
+    
+}
+.amarillo{
+
+    color:orange;
+}
+
+.azul{
+    color: blue;
+    
+
+}
+
+.verde{
+
+    color: green;
+}
+
+table{
+    
+       padding: 10px 10px 10px 10px;
+
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+tr{
+
+    border: 1px solid #000;
+    padding: 10px 10px 10px 10px;
+}
+
+td{ 
+    border: 1px solid #000;
+        padding: 10px 10px 10px 10px;
+
+}
+h1{
+        padding: 10px 10px 10px 10px;
+
+    color:cadetblue;
+}
+body{
+    
+    font-size: 1.5em;
+}
+caption{
+        padding: 10px 10px 10px 10px;
+        color: blue;
+}

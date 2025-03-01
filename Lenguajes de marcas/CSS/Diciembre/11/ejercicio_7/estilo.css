@@ -1,0 +1,37 @@
+body{
+  background-color: #ADFF2F;
+
+
+}
+
+.fondo{
+
+background-color: #FF69B4;
+height: 125px;
+}
+
+.azul{
+
+  background-color: #0000CD;
+
+}
+.rosa2{
+
+  background-color: #FF00FF;
+}
+
+.div1{
+  background-color: #98FB98;
+  height: 50px;
+
+}
+
+.azuClaro{
+
+  background-color: #B0E0E6;
+}
+
+.div2 > p{
+
+  background-color: #FFDAB9;
+}

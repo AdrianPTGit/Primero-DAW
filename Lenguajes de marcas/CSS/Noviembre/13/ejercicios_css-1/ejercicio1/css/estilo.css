@@ -1,0 +1,31 @@
+h2, h1{
+    
+    color: red;
+    
+}
+
+body{
+    
+    background-color: seagreen;
+}
+
+.lista{
+    color:blue;
+}
+
+.palabra1{
+    
+    color:blue;
+    font-size: 25px;
+}
+.palabra2{
+    
+    color:white;
+    background-color: black;
+    font-style: italic;
+}
+
+.palabra_lista{
+    
+    color:greenyellow;
+}

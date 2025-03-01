@@ -1,0 +1,24 @@
+/*estilo ejercicio 39*/
+body {
+
+    background-color: black;
+}
+
+#parrafo_ejercicio_39 {
+
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+}
+
+/*estilo ejercicio 40*/
+#parrafo_ejercicio_40 {
+
+    color: navy;
+    background-color: aliceblue;
+    font: arial;
+    border: 3px solid silver;
+}
+
+
+/*estilo ejercicio 45*/

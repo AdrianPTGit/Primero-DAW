@@ -1,0 +1,26 @@
+table {
+   width: 65%;
+   border: 1px solid #000;
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+    background-color:cornsilk;
+}
+.my-button {
+  padding: 5px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer;
+}
+.my-button:hover {
+  background-color: #45a049;
+}
+.my-button:active {
+  background-color: #3e8e41;
+}

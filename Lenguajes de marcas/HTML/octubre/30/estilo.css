@@ -1,0 +1,39 @@
+#parrafo1{
+    
+    background-color: aqua;
+    text-align: center;
+    font-family: fantasy;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+#parrafo2{
+    
+    background-color: lightskyblue;
+    text-align: center;
+    font-family:   monospace;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    border: 3px solid black;
+}
+#parrafo3{
+    
+    background-color: lightskyblue;
+    text-align: center;
+    font-family:   monospace;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid red;
+    font-size: 25px;
+}
+body{
+    
+    background-color: orange;
+}

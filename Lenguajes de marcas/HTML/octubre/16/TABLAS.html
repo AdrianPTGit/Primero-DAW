@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tablas en html5</title>
+        <!--<style>
+table, th, td {
+border:1px solid black;
+border-style: groove;    
+
+}
+</style>-->
+    </head>
+    <body>
+        <center><h1>Etiquetas para crear tablas</h1></center>
+        <p><b>Las tablas:</b> nos permiten representar un elemento en diferentes filas y columnas.
+            Permiten representar elementos de un forma fácil y rápida. Las casillas de la tabla se rellenan de izquierda a derecha y de arriba hacia abajo.<br>
+            Están delimitadas por las etiquetas table. Se componen de filas y columnas.<br>
+        </p>
+        <ul>
+            <li>Las filas se identifican mediante <b>tr.</b></li>
+            <li>Las columnas se identifican mediante <b>td.</b></li>
+            <li>La etiqueta <b>th</b> pone en negrita la primera fila de la tabla.</li>
+        </ul>  
+        <table style="width: 100%" border="1" >
+            <tr>
+                <th style="width:70%">Company</th><!-- esta columna ocupara el 70%-->
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+            </tr>
+        </table> 
+        <center><h1>etiqueta colspan</h1></center>
+        <table style="width: 100%" border="1">
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>57</td>
+            </tr>
+        </table > 
+        <center><h1>etiqueta rowspan</h1></center>
+        <table style="width: 100%" border="1">
+            <tr>
+                <th>Name</th>
+                <td>Jill</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Phone</th>
+                <td>555-1234</td>
+            </tr>
+            <tr>
+                <td>555-8745</td>
+            </tr>
+        </table> 
+        <center><h1>etiqueta rowspan y colspan</h1></center>
+
+        <table style="width: 100%" border="1">
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Jill</td>
+                <td>Smith</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+
+            </tr>
+            <tr>
+                <td>57</td>
+            </tr>              
+        </table > 
+        
+        <!--********************************************************************
+*********************EJERCICIOS 32 33 34 35, PAG 122-->
+    </body>
+</html>

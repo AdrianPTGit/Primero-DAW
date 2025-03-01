@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>Example Title</title>
+	<meta name="author" content="Your Name">
+	<meta name="description" content="Example description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="">
+	<link rel="icon" type="image/x-icon" href=""/>
+</head>
+
+<body>
+    <h1>Input Type Text</h1>
+	 <form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form> 
+    
+    <h1>Input Type Password</h1>
+     <form>
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd">
+</form> 
+    <h1>Input Type Submit</h1><!--formulario con boton-->
+     <form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit"><!--boton-->
+</form> 
+    
+    <h1>Input Type Reset</h1><!--el boton reset borra los datos introducidos en el formulario-->
+     <form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form> 
+    <h1>Input Type Radio</h1><!-- selecciona una opcion-->
+     <p>Choose your favorite Web language:</p>
+
+<form> <!-- nombrar con el mismo name="" para que esten relacionados y solo permita elegir una sola opcion-->
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</form> 
+    <h1>Input Type Checkbox</h1><!-- elegir varias opciones a la vez cada checbox se procesan por separado-->
+     <form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+</form> 
+    <h1>Input Type Button</h1>
+    <h2>Input Button</h2>
+
+<input type="button" onclick="alert('Hello World!')" value="Click Me!">
+    <H1>Input Type Color</H1><!-- PERMITE ELEGIR UN COLOR-->
+     <form>
+  <label for="favcolor">Select your favorite color:</label>
+  <input type="color" id="favcolor" name="favcolor">
+</form> 
+    <h1>Input Type Date</h1><!-- aparece un calendario para elegir una fecha-->
+     <h2>Date Field Restrictions</h2>
+
+<p>Use the min and max attributes to add restrictions to dates:</p>
+
+<form action="/action_page.php">
+  <label for="datemin">Enter a date after 2000-01-01:</label>
+  <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+        <!-- perimte elegir fechas entre dos valores datemin datemax -->
+  <label for="datemax">Enter a date before 1980-01-01:</label>
+  <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+  
+  <input type="submit" value="Submit">
+</form>
+
+<p><strong>Note:</strong> type="date" is not supported in Internet Explorer 11.</p>
+    <h1>Input Type Datetime-local</h1><!--guarda fecha y hora -->
+ <form>
+  <label for="birthdaytime">Birthday (date and time):</label>
+  <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+</form> 
+    <h1>Input Type Email</h1><!--validacion de email correcto -->
+     <form>
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email">
+</form> 
+    <h1>Input Type Image</h1><!--boton de enviar con una imagen -->
+     <form>
+<input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+</form> 
+    <h1>Input Type File</h1><!-- envia un fichero, un curriculum -->
+     <form>
+         <h2>Subir fichero</h2>
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile">
+</form> 
+    <h1>Input Type Hidden</h1><!-- oculta partes del formulario que el usuario no puede ver, un id -->
+     <form>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="hidden" id="custId" name="custId" value="3487"> <!-- este valor se oculta al usuario, indicar valor por defecto-->
+         <!-- NO ES SEGURO-->
+  <input type="submit" value="Submit">
+</form> 
+    <h1>Input Type Month</h1><!--indica un mes y año-->
+     <form>
+  <label for="bdaymonth">Birthday (month and year):</label>
+  <input type="month" id="bdaymonth" name="bdaymonth">
+</form> 
+    <h1>Input Type Number</h1><!-- solo admite numeros y controla un rago de valores numericos con min y max-->
+     <form>
+  <label for="quantity">Quantity (between 1 and 5):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+</form> 
+    <p>checked: SELECIONA UN CHEKBOX. 
+        disabled: DESACTIVA UN NA CAJA.
+        maxlength: NUMERO MAXIMO DE CARATERES.
+        readonly: SOLO LECTURA.
+        required: VALOR REQUERIDO. OBLIGATORIO.
+        size: ANCHO EN CARACTERES QUE CABEN EN UNA CAJA.
+        step: EN UNA CAJA NUMERICA CUENTA EN UN DETERMINADO   RANGO DE 10 EN 10, UNO EN UNO
+        value:
+    </p>
+    <h1>Input Type Range</h1>
+     <form>
+  <label for="vol">Volume (between 0 and 50):</label>
+  <input type="range" id="vol" name="vol" min="0" max="50">
+</form> 
+    <h1>Input Type Search</h1> <!-- busque dentro del formulario HAY que programar-->
+     <form><label for="gsearch">Search Google:</label>
+  <input type="search" id="gsearch" name="gsearch">
+</form> 
+         <h1>Input Type Tel</h1><!-- nuero de telefono-->
+         <h2>Telephone Field</h2>
+
+<p>The <strong>input type="tel"</strong> is used for input fields that should contain a telephone number:</p>
+
+<form action="/action_page.php">
+  <label for="phone">Enter a phone number:</label><br><br>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+  <small>Format: 123-45-678</small><br><br>
+  <input type="submit" value="Submit">
+</form>
+  <h1>Input Type Url</h1><!-- valida una direccion web-->
+     <form>
+  <label for="homepage">Add your homepage:</label>
+  <input type="url" id="homepage" name="homepage">
+</form> 
+    <h1>Input Type Week</h1><!--establece la semana del año -->
+     <form>
+  <label for="week">Select a week:</label>
+  <input type="week" id="week" name="week">
+</form> 
+	<script type="text/javascript" src=""></script>
+</body>
+
+</html>

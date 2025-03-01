@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Listas ordenadas HTML 5</title>
+    </head>
+    <body>
+
+        <p><b>Los atributos son elementos que me permiten modificar o configurar las etiquetas de HTML como yo desee.</b> Se colocan dentro de la etiqueta de apertura, y tras ellos siempre sigue un igual (=) con unas comillas dobles (" ") y dentro de dichas comillas el valor que quiera darle a dicho atributo. Lo vamos a comprender muy bien con este ejemplo.</p>
+
+
+        <h1>Listas HTML5</h1>
+        <p>atributos: <b>start, type</b></p>
+        <div>
+            <h1>Ranking FIFA Marzo 2021</h1>
+            <ol start="10"><!-- el atributo start hace que la lista empieze por el numero indicado este caso 10-->
+                <li>Bélgica</li>
+                <li>Francia</li>
+                <li>Brasil</li>
+                <li>Inglaterra</li>
+                <li>Portugal</li>
+            </ol>
+        </div>
+        <div>
+            <h1>Ranking FIFA Marzo 2021</h1>
+            <ol type="a"><!-- el atributo type hace que la lista empieze por la letra indicado este caso a-->
+                <li>Bélgica</li>
+                <li>Francia</li>
+                <li>Brasil</li>
+                <li>Inglaterra</li>
+                <li>Portugal</li>
+            </ol>
+        </div>
+        <p> atributo <b>reversed.</b> Este atributo cuando está presente le indica a la lista que el orden de la lista ordenada será invertido y cuándo no esté presente será por defecto. </p>
+        <div>
+            <h1>Ranking FIFA Marzo 2021</h1>
+            <ol reversed>
+                <li>Bélgica</li>
+                <li>Francia</li>
+                <li>Brasil</li>
+                <li>Inglaterra</li>
+                <li>Portugal</li>
+            </ol>
+        </div>
+        <p>sin atributo <b>reversed</b></p>
+        <div>
+            <h1>Ranking FIFA Marzo 2021</h1>
+            <ol>
+                <li>Bélgica</li>
+                <li>Francia</li>
+                <li>Brasil</li>
+                <li>Inglaterra</li>
+                <li>Portugal</li>
+            </ol>
+        </div>
+        <p>¿Te das cuenta que utiliza puntos en la lista no? Puedo utilizar circulitos blancos, usando el atributo type con el valor <b>circle</b></p>
+        <div>
+
+            <h1>Ciudades de España para visitar</h1>
+            <ul type="circle">
+                <li>Toledo</li>
+                <li>Sevilla</li>
+                <li>Santander</li>
+                <li>Salamanca</li>
+                <li>Cáceres</li>
+            </ul>
+            <h2>obsoleto utilizar CSS</h2> 
+
+            <h1><b>Listas anidadas</b></h1>
+            <div>
+                <h1>Jugadores de fútbol de leyenda</h1>
+                <ul>
+                    <li>España</li>
+                    <ul type="square"> <!--pinta un cuadrado-->
+                        <li>Casillas</li>
+                        <li>Xavi</li>
+                        <li>Iniesta</li>
+                    </ul>
+                    <li>Francia</li>
+                    <ul type="disc"><!--pinta un disco -->
+                        <li>Zidane</li>
+                        <li>Henry</li>
+                        <li>Barthez</li>
+                    </ul>
+                    <li>Brasil</li>
+                    <ul type="circle"><!--pinta un circulo-->
+                        <li>Ronaldo</li>
+                        <li>Pelé</li>
+                        <li>Ronaldinho</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

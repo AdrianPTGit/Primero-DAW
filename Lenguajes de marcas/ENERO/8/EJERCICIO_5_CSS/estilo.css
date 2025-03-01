@@ -1,0 +1,42 @@
+/*.borde_tabla{
+
+    border: 1px solid #000;
+}
+.borde_tabla_amarillo{
+
+    border: 1px solid #000;
+    background-color: #eeeaa3;
+
+}
+
+.borde_tabla_amarillo:hover{
+
+    background-color: #fff200;
+    
+}
+
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_table_hover*/
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {background-color: rgb(255, 236, 26);
+
+}
+  .borde_tabla{
+
+    border: 1px solid #000;
+}
+tr{
+
+ background-color: rgb(241, 234, 143);
+
+}
+
+.sin_color{
+
+    background-color: white;
+
+}

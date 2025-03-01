@@ -1,0 +1,50 @@
+.titulo{
+
+    float: left;
+    width: 1300px;
+    height: 100px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.menu{
+    float: left;
+    width: 300px;
+    height: 1300px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+
+}
+
+.contenido{
+    float: left;
+    width: 980px;
+    height: 600px;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+
+.contenido_2{
+    float: left;
+    width: 980px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+
+.contenido_3{
+    float: left;
+    width: 308px;
+    height: 460px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}

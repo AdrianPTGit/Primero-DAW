@@ -1,0 +1,29 @@
+h1{
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    margin-left: 35%;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: aqua;
+    animation-duration: 3s;
+    animation-name: animacion;
+
+}
+
+@keyframes animacion{
+
+    0%  {background-color: aqua;left:0px ; top:0px ;}
+    15% {background-color: cadetblue; left:250px ; top: 0px;}
+    30% {background-color: brown; left: 0px; top: 300px;}
+    45% {background-color: orange; left:250px ; top: 0px;}
+    60% {background-color: orangered; left:0px ; top:250px;}
+    80% {background-color: brown; left:0px ; top:300px ;}
+    90% {background-color: cadetblue; left:250px ; top: 0px;}
+   100% {background-color: aqua; left: 0px; top: 300px;} 
+
+
+}

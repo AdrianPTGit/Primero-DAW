@@ -1,0 +1,30 @@
+/*estilo ejercicio 44*/
+#parrafo_ejercicio_44_1 {
+    border: 5px solid red;
+    height: 150px;
+    width: 800px;
+    margin-left:200px;
+    margin-top: 20px;
+        
+
+}
+
+#parrafo_ejercicio_44_2 {
+    
+    border: 5px solid green;
+    height: 150px;
+    width: 800px;
+    margin-left:200px;
+    
+        
+
+}
+
+#parrafo_ejercicio_44_3 {
+    
+    border: 5px solid blue;
+    height: 150px;
+    width: 800px;
+    margin-left:200px;
+    
+}

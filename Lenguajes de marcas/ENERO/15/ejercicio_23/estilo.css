@@ -1,0 +1,40 @@
+/*Adrián Pomareta  Tarragó*/
+
+.caja1{
+
+    border: green 2px solid;
+
+}
+
+.caja2{
+
+
+    border: green 2px solid;
+    width: 100px;
+}
+
+.caja3{
+
+    border: green 2px solid;
+
+}
+
+.caja4{
+
+    border: green 2px solid;
+    width: 150px;
+    margin-top: 25px;
+}
+
+.caja5{
+
+    border: green 2px solid;
+    margin-top: 25px;
+}
+
+.caja6{
+
+    border: green 2px solid;
+    margin-top: 25px;
+    margin-left: 50px;
+}

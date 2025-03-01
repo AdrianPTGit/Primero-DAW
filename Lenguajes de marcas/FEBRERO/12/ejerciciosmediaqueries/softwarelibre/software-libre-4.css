@@ -1,0 +1,192 @@
+
+/* mobile first */
+body {
+  margin: 0;
+  background-color: #E0E1EB;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+h1 {
+  margin: 0;
+  background-color: #31334D;
+  color: white;
+}
+
+h2 {
+  background-color: #31334D;
+  color: white;
+  text-align: center;
+}
+
+article {
+  border-radius: 10px;
+  padding-bottom: 5px;
+  background-color: white;
+  
+}
+
+article h1 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-left: 5px;
+  background-color: #2CAB32;
+  font-size: 150%;
+}
+
+p {
+  margin: 5px 5px;
+}
+
+/*-----------------------------------------tabletas-------------------------------------------- 
+------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------*/
+@media (min-width: 768px) {
+  body {
+    margin: 0;
+    background-color: #E0E1EB;
+    font-family: sans-serif;
+    text-align: justify;
+  }
+  
+  h1 {
+    margin: 0;
+    background-color: #31334D;
+    color: white;
+  }
+  
+  h2 {
+    background-color: #31334D;
+    color: white;
+    text-align: center;
+  }
+  
+  article {
+    border-radius: 10px;
+    padding-bottom: 5px;
+    background-color: white;
+    
+  }
+  
+  article h1 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 5px;
+    background-color: #2CAB32;
+    font-size: 150%;
+  }
+  
+  p {
+    margin: 5px 5px;
+  }
+
+}
+/*--------------------------escritorio normales ----------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------*/
+@media (min-width: 992px) {
+
+  body {
+    margin: 0;
+    background-color: #E0E1EB;
+    font-family: sans-serif;
+    text-align: justify;
+  }
+  
+  h1 {
+    margin: 0;
+    background-color: #31334D;
+    color: white;
+  }
+  
+  h2 {
+    background-color: #31334D;
+    color: white;
+    text-align: center;
+  }
+  
+  article {
+    border-radius: 10px;
+    padding-bottom: 5px;
+    background-color: white;
+    
+  }
+  
+  article h1 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 5px;
+    background-color: #2CAB32;
+    font-size: 150%;
+  }
+  
+  p {
+    margin: 5px 5px;
+  }
+}
+/*------------------------- pantallas grandes---------------------------------------------------
+------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------*/
+
+@media (min-width: 1200px) {
+  body {
+    margin: 0;
+    background-color: #E0E1EB;
+    font-family: sans-serif;
+    text-align: justify;
+  }
+  
+  h1 {
+    margin: 0;
+    background-color: #31334D;
+    color: white;
+  }
+  
+  h2 {
+    background-color: #31334D;
+    color: white;
+    text-align: center;
+  }
+  
+  article {
+    display: inline-block;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    background-color: white;
+    width: 400x;
+    
+  }
+  
+  article h1 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 5px;
+    background-color: #2CAB32;
+    font-size: 150%;
+  }
+  
+  p {
+    margin: 5px 5px;
+  }
+  #escritorio{
+    margin: 0px auto;
+    float:left;
+    /*display: inline-block;*/
+    width: 900px;
+    margin-left: 10px;
+  }
+  #internet{
+
+    float: left;
+    /*display: inline-block;*/
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+  .section1{
+    float: left;
+
+  }
+  
+}

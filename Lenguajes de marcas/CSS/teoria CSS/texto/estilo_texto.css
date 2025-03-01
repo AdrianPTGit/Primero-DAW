@@ -1,0 +1,37 @@
+/*****************************************************
+************PROPIEDADES TEXTO FONT- ******************
+*****************************************************/
+.parrafo{
+    font-family: "Times New Roman"; /*tipo de fuente*/
+    font-size: 1.0em; /*medidas px, em, % rem pt */
+    font-weight: bold; /*pone el texto en negrita*/
+    font-style: italic; /*pone el texto en cursiva*/
+    
+    /**************************************************
+    /********PROPIEDADES ALINEACION TEXTO*************
+    ***************************************************/
+    text-align-last: center;/*muestra el texto en el centro*/
+    text-align-last: right;/*muestra la ultima linea a la derecha*/
+    text-indent: 20px;/*tamaño sangria. medidas px, em, % rem pt*/
+    word-spacing: 10px;/*espacio entre palabras medidas px, em, % rem pt*/
+    line-height: 50px;/*espacio entre lineas. medidas px, em, % rem pt*/
+}
+.texto1{
+    
+    text-decoration: overline; /*texto subrayado*/
+}
+.parrafo2{
+    font: 25px arial, bold; /*tipo de fuente tanaño y negrita*/
+    /*font-size: 1.5em; /*medidas px, em, % rem pt */
+    font-weight: bold; /*pone el texto en negrita*/
+    font-style: oblique; /*pone el texto en cursiva*/
+}
+/*****************************************************
+************FUENTE DESDE FICHERO**********************
+*****************************************************/
+@font-face{
+    
+    font-family:"Super Daisy Personal Use";
+    src:url("fuentes/Super Daisy Personal Use.ttf")
+
+}

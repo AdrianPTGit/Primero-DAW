@@ -1,0 +1,42 @@
+body{
+    
+    font-size: 1.5em;
+}
+.parrafo1{
+    
+    padding-left: 50px;
+}
+
+.parrafo2{
+    
+    background-color: aqua;
+    color: blue;
+  
+}
+.parrafo3{
+    
+    background-color: coral;
+    border: 3px solid green;
+    color: white;
+}
+
+.parrafo4{
+    
+    color:blue;
+}
+
+.parrafo5{
+    font-style: italic;
+    color: blue;
+}
+
+.parrafo6{
+    
+    background-color: crimson;
+    color: blueviolet;
+}
+
+.ancho{
+    
+    width: 700px;
+}
